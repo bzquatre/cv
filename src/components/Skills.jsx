@@ -6,14 +6,13 @@ export default function Skills() {
       <td>
         <div className="author_content">
         <h1 className="title">My Skills</h1>
-        <p>My education background and my passion towards coding allowed me to thrive in this career</p>
-        <p>studied math and computer science in <em>Université des Sciences et de la Technologie Houari Boumediene</em> I learned the basics of computers from <em>algorithms</em>,<em>assembler</em>,<em>structure machine</em>  and the <em>C language</em> </p>
+        <p>My education background and my passion towards coding allowed me to thrive in this career
+        studied math and computer science in <em>university of science and technology houari boumediene</em> I learned the basics of computers from <em>algorithms</em>,<em>structure machine</em> and the <em>C language</em> </p>
         <p>
-            my specialization in Math did not prevent me from obtaining a high-tech technician in <em>L'institut national spécialisé de formation professionnelle</em>
-            with a good grade in databases and coming up with the skills of <em>designing</em> and<em>managing</em>  databases with <em>Merise & SqlServer</em> and Developing Desktop Applications with <em>Delphi</em></p>
-        <p> This is what created the environment for me to develop new skills for self-learning</p>
-        <p>I aquired a quite good knowledge in <em>HTML5, CSS3, JS</em> and intermediate level in <em>PHP, MYSQL</em> and basic level in using <em>Elementor, Wordpress</em> and have working experience on <em>Linux</em> platform</p>
-        <p>I always love to learn more things, and prefer to work in a team.</p>
+            I have high-tech in <em>L'institut national spécialisé de formation professionnelle</em>
+            with a good grade in databases and coming up with the skills of <em>designing</em> and<em>managing</em>  databases with <em>Merise & SqlServer</em> and Developing Desktop Applications</p>
+        <p> This is what created the environment for me to develop new skills for self-learning
+        I aquired a quite good knowledge in <em>HTML5, CSS3, JS</em> and intermediate level in <em>Django, react</em> and advanced level in  <em>Python, PYQT</em> and have working experience on <em>Linux,Windows</em> OS</p>
         <strong>Thank You.</strong>
         </div>
       </td>
@@ -25,7 +24,7 @@ export default function Skills() {
               <div id="lan1" className="progress">
                 <div className="progress-value"></div>
               </div>
-              <label htmlFor="lan2">GUI(PyQt & Delphi)</label>
+              <label htmlFor="lan2">GUI(PyQt)</label>
               <div id="lan2" className="progress">
                 <div className="progress-value progress2"></div>
               </div>
@@ -41,11 +40,7 @@ export default function Skills() {
               <div id="lan5" className="progress">
                 <div className="progress-value progress1"></div>
               </div>
-              <label htmlFor="lan6">systeme (Linux & windows)</label>
-              <div id="lan6" className="progress">
-                <div className="progress-value progress2"></div>
-              </div>
-              <label htmlFor="lan6">containerization (Docker & Docker Compose)</label>
+              <label htmlFor="lan6">systeme (Linux & windows & Docker & IIS & Apache)</label>
               <div id="lan6" className="progress">
                 <div className="progress-value progress2"></div>
               </div>

@@ -28,8 +28,7 @@ export default function Works() {
       <div>
         <em>Hobbies : </em>
         <ul>
-          <li>programing and coding</li><br/>
-          <li>driving and camping</li><br/>
+          <li>camping</li><br/>
           <li>Basketball</li><br/>
           <li>beekeeping</li>
         </ul>
@@ -57,16 +56,6 @@ export default function Works() {
             </li>
         </ul>
         <ul>
-          <li>Pascal</li>
-          <li>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star checked"></span>
-            <span className="fa fa-star"></span>
-          </li>
-        </ul>
-        <ul>
           <li>SQL</li>
           <li>
             <span className="fa fa-star checked"></span>
@@ -74,16 +63,6 @@ export default function Works() {
             <span className="fa fa-star checked"></span>
             <span className="fa fa-star checked"></span>
             <span className="fa fa-star"></span>
-          </li>
-        </ul>
-        <ul>
-          <li>C</li>
-          <li>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star checked"></span>
-          <span className="fa fa-star"></span>
-          <span className="fa fa-star"></span>
           </li>
         </ul>
       </div>

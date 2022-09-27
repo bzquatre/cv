@@ -29,7 +29,7 @@ function App() {
     <a href="#MyWorks">MY WORKS</a>
     <a href="#ContactMe">CONTACT ME</a>
     <a href="https://drive.google.com/file/d/1z5Rs2ttAR9y88yekAYH6lZdQAzMBFU9E/view?usp=sharing" className="active">DOWNLOAD CV <i className="fa fa-download"></i></a>
-    <a className="icon" id="icon" ><i className="fa fa-bars"></i></a>
+    <a className="icon" id="icon" onClick={()=>opennav()}><i className="fa fa-bars"></i></a>
     </nav>
   </header>
   <div className="container">
@@ -42,7 +42,7 @@ function App() {
         <Skills/>
     </tr>
     <tr>
-   
+        <MyWorks/>
     </tr>
     <tr id="ContactMe">
         <Contact/>
