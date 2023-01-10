@@ -4,7 +4,6 @@ import Contact from "./Contact";
 import MyWorks from "./MyWorks";
 import Skills from "./Skills";
 import Works from "./Works";
-
 function App() {
   const [count, setCount] = useState(true);
   function opennav(){
@@ -28,7 +27,7 @@ function App() {
     <a href="#Skills">SKILLS</a>
     <a href="#MyWorks">MY WORKS</a>
     <a href="#ContactMe">CONTACT ME</a>
-    <a href="https://drive.google.com/file/d/1z5Rs2ttAR9y88yekAYH6lZdQAzMBFU9E/view?usp=sharing" className="active">DOWNLOAD CV <i className="fa fa-download"></i></a>
+    <a className="active" target="_blank" href="/cv.pdf">DOWNLOAD CV <i className="fa fa-download"></i></a>
     <a className="icon" id="icon" onClick={()=>opennav()}><i className="fa fa-bars"></i></a>
     </nav>
   </header>
@@ -46,7 +45,7 @@ function App() {
     </tr>
     <tr id="ContactMe">
         <Contact/>
-      </tr>
+    </tr>
     </tbody>
     </table>
 
